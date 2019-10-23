@@ -64,5 +64,5 @@ goods_sort INT NOT NULL,
 );
 ```
 
-
+sql脚本已在data中
 

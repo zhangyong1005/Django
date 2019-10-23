@@ -1,0 +1,9 @@
+INSERT INTO `user` VALUES (1, 'zy', '1', 5677554.00, 3, 101446.90);
+INSERT INTO `user` VALUES (2, '1', '1', 0.00, 2, 0.00);
+INSERT INTO `user` VALUES (3, '2', '2', 125.40, 1, 451.60);
+INSERT INTO `user` VALUES (4, '4', '4', 0.00, 0, 0.00);
+INSERT INTO `user` VALUES (5, '5', '5', 0.00, 2, 0.00);
+INSERT INTO `user` VALUES (6, '6', '6', 0.00, 0, 0.00);
+INSERT INTO `user` VALUES (7, '7', '7', 0.00, 0, 0.00);
+INSERT INTO `user` VALUES (8, '123', '123', 0.00, 0, 0.00);
+INSERT INTO `user` VALUES (9, '222', '222', 199951.00, 0, 149.00);
