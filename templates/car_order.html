@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>具体订单</title>
+    <style>
+        /* 把标签默认的间距设为0 */
+        body, ul, ol, p, h1, h2, h3, h4, h5, h6, dl, dd, select, input, textarea, form {
+            margin: 0;
+            padding: 0
+        }
+
+        /* 去掉列表默认的图标 */
+        ul, ol {
+            list-style: none;
+        }
+
+        /* 去掉em默认的斜体 */
+        em {
+            font-style: normal;
+        }
+
+        /* 去掉a标签默认的下划线 */
+        a {
+            text-decoration: none;
+        }
+
+        /* 去掉加链接时产生的框线 */
+        img {
+            border: 0;
+        }
+
+        /* 清除浮动 */
+        .clearfix:before, .clearfix:after {
+            content: "";
+            display: table
+        }
+
+        /* 浮动 */
+        .fl {
+            float: left
+        }
+
+        .fr {
+            float: right
+        }
+
+        body {
+            font-size: 12px;
+            color: #666;
+        }
+
+        html, body {
+            height: 100%
+        }
+
+        .header_con {
+            background-color: #f7f7f7;
+            height: 29px;
+            border-bottom: 1px solid #dddddd
+        }
+
+        .header {
+            width: 1200px;
+            height: 29px;
+            margin: 0 auto;
+        }
+
+        .welcome, .login_info, .login_btn, .user_link, .book_sort {
+            line-height: 29px;
+        }
+
+        .login_info em {
+            color: #ff8800
+        }
+
+        .login_btn a, .user_link a {
+            color: #666;
+        }
+
+        .login_btn a:hover, .user_link a:hover {
+            color: #ff8800;
+        }
+
+        .login_btn span, .user_link span {
+            color: #cecece;
+            margin: 0 10px;
+        }
+
+        .search_bar {
+            width: 1200px;
+            height: 115px;
+            margin: 0 auto;
+        }
+
+        .search_con {
+            width: 616px;
+            height: 38px;
+            border: 1px solid #4277ad;
+            position: relative;
+            left: 15%;
+            margin: 34px 0 0 124px;
+            background: url(/static/icons.png) 10px -338px no-repeat;
+        }
+
+        .search_con .input_text {
+            width: 470px;
+            height: 34px;
+            border: 0px;
+            margin: 2px 0 0 36px;
+            outline: none;
+            font-size: 12px;
+            color: #737272;
+        }
+
+        .search_con .input_btn {
+            width: 100px;
+            height: 38px;
+            background-color: #4277ad;
+            border: 0px;
+            font-size: 14px;
+            color: #fff;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .goods_range {
+            width: 396px;
+            height: 396px;
+            background-color: white;
+            float: left;
+        }
+
+        .goods_img {
+            width: 300px;
+            height: 205px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+{% load static %}
+<body style="background-image: url(/static/9.jpg)">
+<div class="header_con">
+    <div class="header">
+        <div class="welcome fl">欢迎来到zy书城!
+            <span>|</span>
+            <a href="../index/">返回主页</a></div>
+        <div class="fr">
+            <div class="login_btn fl">
+                {% if user_name %}
+                    <div class="login_info fl">
+                        欢迎您：<em>{{ user_name }}</em>
+                    </div>
+                {% else %}
+                    <a href="../login/">登录</a>
+                {% endif %}
+                <span>|</span>
+                <a href="../register/">注册</a>
+            </div>
+            <div class="user_link fl">
+                <span>|</span>
+                <a href="../person/">用户中心</a>
+                <span>|</span>
+                <a href="../shoppingcar">我的购物车</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div align="center" style="background-image: url(/static/six.jpg);height: 100%;width: 100%;">
+<div align="center">
+    <div class="goods_img"><img src="{{ key.6 }}" alt="" style="height: 200px"></div>
+    <h2>名字：{{ key.1 }}</h2>
+    <h2>价格：￥{{ key.2 }}</h2>
+    <h2>销量:{{ key.3 }}笔</h2>
+    <h2>评价次数:{{ key.4 }}次 评价星级:{{ key.7 }}</h2>
+    <div style=" width: 300px;border: 1px solid #cecece;background-color:#dddddd">
+        {% for foo in infos %}
+            <p>{{ foo }}</p>
+        {% endfor %}
+    </div>
+    <div>
+        <form action="" method="post">
+            {% csrf_token %}
+            <h1 style="color: white">购买数量：
+            {% if key2.4 == 1 %}
+                <select name="buy_number">
+                    <option value="1" selected="selected">购买1本</option>
+                    <option value="2">购买2本</option>
+                    <option value="3">购买3本</option>
+                </select>
+            {% elif key2.4 == 2 %}
+                <select name="buy_number">
+                    <option value="1">购买1本</option>
+                    <option value="2" selected="selected">购买2本</option>
+                    <option value="3">购买3本</option>
+                </select>
+            {% else %}
+                <select name="buy_number">
+                    <option value="1">购买1本</option>
+                    <option value="2">购买2本</option>
+                    <option value="3" selected="selected">购买3本</option>
+                </select>
+            {% endif %}
+                </h1>
+        <h1 style="color: white">
+        购买样式：
+        {% if key2.3 == 0 %}
+
+            <input type="radio" value="0" name="good_type" checked="checked">赠送精美书皮一个/本
+            <input type="radio" value="1" name="good_type">赠送精美书签一副/本
+            <input type="radio" value="2" name="good_type">赠送精美挂件一个/本
+            <br>
+            {% elif key2.3 == 1 %}
+            <input type="radio" value="0" name="good_type" >赠送精美书皮一个/本
+            <input type="radio" value="1" name="good_type" checked="checked">赠送精美书签一副/本
+            <input type="radio" value="2" name="good_type">赠送精美挂件一个/本
+            <br>
+            {% else %}
+            <input type="radio" value="0" name="good_type" >赠送精美书皮一个/本
+            <input type="radio" value="1" name="good_type">赠送精美书签一副/本
+            <input type="radio" value="2" name="good_type" checked="checked">赠送精美挂件一个/本
+         </h1>
+        {% endif %}
+        <h1 style="color: white"><input type="radio" value="3" name="dfc">忽然不想要了(想清楚啊)</h1>
+        <h1 style="color: white">{{ response }}</h1>
+            <input type="submit" value="修改该订单">
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        .one {
+            width: 100%;
+            background-image: url(/static/two.jpg);
+            background-repeat: repeat;
+            background-size: 100%;
+            position: fixed;
+            top: 0px;
+            bottom: 0px;
+        }
+
+        .two {
+            width: 550px;
+            height: 550px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: rgba(255, 254, 250, 0.81);
+            background: rgba(233, 255, 248, 0.46);
+            position: fixed;
+            top: 10%;
+            left: 33%;
+            border-radius: 276px;
+
+        }
+
+    </style>
+</head>
+{% load static %}
+<body>
+<div align="center" class="one">
+    <div class="two">
+        {% csrf_token %}
+        <br>
+        <br>
+        <br>
+        <h1>个人中心</h1>
+        <h2>用户名: {{ name }}</h2>
+        <h2> 地址：由于本商城此次测试<br>
+            不提供送货服务，已被禁止</h2>
+        <h2> 电话：理由同上</h2>
+        <h2>余额：￥{{ money }}</h2>
+        <br>
+        <br>
+        <a href="../look_history/">浏览记录</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="../shopped/">购买记录</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="../change/">修改信息</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="../money/">充值</a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <br>
+        <br>
+        <a href="../index/">返回主页</a>
+
+        {% if power > 2 %}
+            <span>| </span><a href="../superadmin/">超级后台管理系统</a>
+            {% elif power > 1 %}
+            <span>| </span><a href="../admin/">普通后台管理系统</a>
+            {% endif %}
+        <br>
+        <br>
+        <a href="../nologin/">注销</a>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <style>
+        body, ul, ol, p, h1, h2, h3, h4, h5, h6, dl, dd, select, input, textarea, form {
+            margin: 0;
+            padding: 0
+        }
+
+        /* 去掉a标签默认的下划线 */
+        a {
+            text-decoration: none;
+        }
+        .fl {
+            float: left
+        }
+        .fr {
+            float: right
+        }
+        body {
+            font-size: 13.5px;
+            color: #666;
+        }
+        html, body {
+            height: 100%
+        }
+
+        .header_con {
+            background-color: #f7f7f7;
+            height: 29px;
+            border-bottom: 1px solid #dddddd
+        }
+
+        .header {
+            width: 1200px;
+            height: 29px;
+            margin: 0 auto;
+        }
+
+        .welcome, .login_info, .login_btn, .user_link, .book_sort {
+            line-height: 29px;
+        }
+
+        .login_info em {
+            color: #ff8800
+        }
+
+        .login_btn a, .user_link a {
+            color: #666;
+        }
+
+        .login_btn a:hover, .user_link a:hover {
+            color: #ff8800;
+        }
+
+        .login_btn span, .user_link span {
+            color: #cecece;
+            margin: 0 10px;
+        }
+
+        .content {
+            width: 200px;
+            height: 200px;
+            background: rgba(203, 214, 201, 0.73);
+            position: fixed;
+            right:  14%;
+            bottom: 35%;
+        }
+
+    </style>
+</head>
+{% load static %}
+<body>
+<div class="header_con">
+    <div class="header">
+        <div class="welcome fl">欢迎来到zy书城!
+            <span>|</span>
+            <a href="../index/">返回主页</a>
+        </div>
+        <div class="fr">
+            <div class="login_btn fl">
+                {% if user_name %}
+                    <div class="login_info fl">
+                        欢迎您：<em>{{ user_name }}</em>
+                    </div>
+                {% else %}
+                    <a href="../login/">登录</a>
+                {% endif %}
+                <span>|</span>
+                <a href="../register/">注册</a>
+            </div>
+            <div class="user_link fl">
+                <span>|</span>
+                <a href="../person/">用户中心</a>
+                <span>|</span>
+                <a href="../shoppingcar">我的购物车</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div align="center" style="background-image: url(/static/six.jpg);
+min-height:750px;width: 100%;background-repeat:repeat;">
+{% if key2 == 1 %}
+    <div align="center" style="width: 900px">
+        {% for i in key %}
+        <div style="border: #ff8800 2px solid;width: 396px;height: 246px;float: left;
+                background-image: url(/static/five.jpg);background-size: 100%;">
+        <br><br>
+        <p>订单号：{{ i.0 }}</p>
+        <p>名字：{{ i.1 }}</p>
+        <p>单价：{{ i.2 }}</p>
+        <img src="{{ i.3 }}" alt="图片加载失败" style="height: 80px">
+        <p>样式：
+            {% if i.4 == 0 %}
+                精美书皮
+            {% elif  i.4 == 1 %}
+                精美书签
+            {% else %}
+                精美挂件
+            {% endif %}</p>
+        <p>数量：{{ i.5 }}</p>
+        <p>总价：{{ i.6 }}</p>
+        <a href="../order/?number={{ i.0 }}">修改该订单</a>
+            </div>
+    {% endfor %}
+    </div>
+
+
+    <div class="content fr" align="center">
+        <form action="" method="post">
+            {% csrf_token %}
+            <br>
+            <h1>总价：{{ sum }}</h1>
+            <h1>折扣价:{{ sum1 }}</h1>
+            <h1><input type="radio" name="ral" checked="checked" value="0"/>(默认选中)付款
+                <br></h1>
+            <h1><input type="radio" name="ral" value="1"/>清空购物车
+                <br></h1>
+            <input type="submit" value="选择">
+        </form>
+    </div>
+
+{% elif key2 == 2 %}
+    <div align="center" style="height: 707.8px;"><br><br><br><h1>{{ key3 }}</h1></div>
+{% else %}
+    <div align="center" style="height: 707.8px;"><h1>你的购物车里没有东西</h1></div>
+
+{% endif %}
+
+</div>
+</body>
+</html>

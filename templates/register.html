@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form_register</title>
+    <style>
+         .one{
+            width: 100%;
+            background-image: url(/static/one.jpg);
+            background-repeat: repeat;
+            background-size: 100%;
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+
+        }
+        .two{
+            width: 550px;
+            height: 550px;
+            border-width: 2px ;
+            border-style:  solid;
+            border-color: orange;
+            background: rgba(255, 229, 30, 0.59);
+            position: fixed;
+            top: 10%;
+            left: 33%;
+            border-radius:276px;
+
+        }
+    </style>
+</head>
+{% load static %}
+<body>
+<div align="center" class="one">
+    {% load static %}
+    <div class="two">
+        <br>
+                <br>
+        <br>
+                <br>
+        <br>
+                <br>
+        <h1>欢迎注册</h1>
+    <form action="/app/register/" method="post">
+        {% csrf_token %}
+        {{ key }}
+        <table class="form-table">
+            {{ form.as_p }}
+        </table>
+        <p class="submit">
+            <input type="submit" name="submit" id="submit" class="button-primary" value="注册"  /></p>
+        <a href="../login/">已有账号，返回登录</a>
+        <br>
+        <br>
+    </form>
+    </div>
+</div>
+</body>
+</html>

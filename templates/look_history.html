@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浏览记录</title>
+      <style>
+        /* 把标签默认的间距设为0 */
+        body, ul, ol, p, h1, h2, h3, h4, h5, h6, dl, dd, select, input, textarea, form {
+            margin: 0;
+            padding: 0
+        }
+
+        /* 去掉列表默认的图标 */
+        ul, ol {
+            list-style: none;
+        }
+
+        /* 去掉em默认的斜体 */
+        em {
+            font-style: normal;
+        }
+
+        /* 去掉a标签默认的下划线 */
+        a {
+            text-decoration: none;
+        }
+
+        /* 去掉加链接时产生的框线 */
+        img {
+            border: 0;
+        }
+
+        /* 清除浮动 */
+        .clearfix:before, .clearfix:after {
+            content: "";
+            display: table
+        }
+
+        /* 浮动 */
+        .fl {
+            float: left
+        }
+
+        .fr {
+            float: right
+        }
+
+        body {
+            font-size: 12px;
+            color: #666;
+        }
+
+        html, body {
+            height: 100%
+        }
+
+        .header_con {
+            background-color: #f7f7f7;
+            height: 29px;
+            border-bottom: 1px solid #dddddd
+        }
+
+        .header {
+            width: 1200px;
+            height: 29px;
+            margin: 0 auto;
+        }
+
+        .welcome, .login_info, .login_btn, .user_link ,.book_sort{
+            line-height: 29px;
+        }
+
+
+
+        .login_info em {
+            color: #ff8800
+        }
+
+        .login_btn a, .user_link a {
+            color: #666;
+        }
+
+        .login_btn a:hover, .user_link a:hover {
+            color: #ff8800;
+        }
+
+        .login_btn span, .user_link span {
+            color: #cecece;
+            margin: 0 10px;
+        }
+
+
+    </style>
+</head>
+{% load static %}
+<body>
+<div class="header_con">
+    <div class="header">
+        <div class="welcome fl">欢迎来到zy书城!
+        <span>|</span>
+            <a href="../index/">返回主页</a></div>
+        <div class="fr">
+            <div class="login_btn fl">
+                {% if user_name %}
+                    <div class="login_info fl">
+                        欢迎您：<em>{{ user_name }}</em>
+                    </div>
+                    {% else %}
+                        <a href="../login/">登录</a>
+                {% endif %}
+                <span>|</span>
+                <a href="../register/">注册</a>
+            </div>
+            <div class="user_link fl">
+                <span>|</span>
+                <a href="../person/">用户中心</a>
+                <span>|</span>
+                <a href="../shoppingcar">我的购物车</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div align="center" style="background-image: url(/static/six.jpg);height:100%;top: 29px;">
+<h1>仅保留最近20条</h1>
+<h1>{{ response }}</h1>
+{% for i in key %}
+<div align="center">
+    <h1><a href="../goods_info/?id={{ i.1 }}">{{ i.0 }}</a>&nbsp;&nbsp;&nbsp;浏览时间：{{ i.2 }}</h1>
+</div>
+{% endfor %}
+</div>
+</body>
+</html>

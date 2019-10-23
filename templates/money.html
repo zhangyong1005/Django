@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>充值</title>
+    <style>
+        .input_text {
+            width: 470px;
+            height: 34px;
+            border: 2px solid;
+            margin: 2px 0 0 36px;
+            outline: none;
+            font-size: 12px;
+            color: #737272;
+        }
+        .input_btn {
+            width: 100px;
+            height: 38px;
+            background-color: #737272;
+            border: 0px;
+            font-size: 14px;
+            color: #fff;
+            outline: none;
+            cursor: pointer;
+        }
+        a {
+            text-decoration: none;
+            link:  blank;
+        }
+    </style>
+</head>
+{% load static %}
+<body>
+<div style="width: 100%;height: 100%;background-image: url(/static/7.jpg);background-repeat: no-repeat;position: fixed;
+background-size: 100%;top: 0px;left: 0px" align="center">
+<div align="center">
+    <br><br><br>
+    <h1>充钱能使你变强</h1>
+    <h1>用户：{{ name }}</h1>
+    <h1>现有余额：￥{{ money }}</h1>
+    <form action="/app/money/" method="post">
+        {% csrf_token %}
+        <h1>{{ key }}</h1>
+        <div class="search_con fl">
+        充值金额；<input type="text" class="input_text" name="add_money" placeholder="请输入充值金额">
+        <input type="submit" value="充值" class="input_btn">
+        <h1><a href="../person/">点错了，打扰了，回去个人中心</a></h1>
+        </div>
+    </form>
+</div>
+</div>
+</body>
+</html>

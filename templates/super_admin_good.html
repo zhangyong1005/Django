@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>超级管理后台の商品</title>
+    <style>
+        .goods_range {
+            width: 400px;
+            height: 400px;
+            background-color: white;
+            float: left;
+        }
+
+        .goods_img {
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+        }
+         .content {
+            width: 200px;
+            height: 200px;
+            background: rgba(203, 214, 201, 0.73);
+            position: fixed;
+            right:  0px;
+            bottom: 35%;
+        }
+
+    </style>
+</head>
+{% load static %}
+<body style="background-image: url(/static/9.jpg)">
+
+<div style="width: 100%;background-image: url(/static/9.jpg)">
+    <div style="height: 100px;border: #ff8800 1px solid" align="center"><a href="../" style="text-decoration: none">返回后台管理系统</a><br>
+        <a href="../good/"  style="text-decoration: none">按id排序</a><br>
+        <a href="../good/?p1=1" style="text-decoration: none">按销量排序</a><br>
+        <a href="../good/?p1=2" style="text-decoration: none">按价格排序</a><br>
+    </div>
+
+<div align="center"><h1>{{ response }}</h1></div>
+    {% if key == 1 %}
+        {% for i in good %}
+            <div align="center">
+            <form action="./?good={{ i.0 }}" method="post">
+                {% csrf_token %}
+                {{ resqult }}<br>
+                <div class="goods_img">
+                    <img src="{{ i.6 }}" alt="图片无法加载" style="height: 150px"></div>
+                名字：<input type="text" placeholder="{{ i.1 }}" name="good_name"><br>
+                价格：<input type="text" placeholder="{{ i.2 }}" name="good_price"><br>
+                产品详情：<textarea name="good_info">{{ i.5 }}</textarea><br>
+                <p>评分：{{ i.7 }}</p>
+                <p>销量：{{ i.3 }}</p>
+                <p>库存：无限</p>
+                <input type="radio" name="delete" value="0" checked="checked"/>上架
+                <input type="radio" name="delete" value="1"/>下架
+                <br>
+                <input type="submit" value="修改">
+            </form>
+            <a href="../good/">返回商品管理中心</a>
+        {% endfor %}
+    {% else %}
+        <div align="center">
+            <div style="width: 1300px">
+        {% for i in good %}
+                <div class="goods_range" align="center" style="border: #ff8800 2px solid;">
+                <div class="goods_img">
+                    <img src="{{ i.2}}" alt="图片无法加载" style="height: 150px"></div>
+                <p>{{ i.0 |truncatechars:16 }}</p>
+                <p>价格：{{ i.1 }} <br>库存:无限 <br>销量:{{ i.3 }}</p>
+                <a href="./?good={{ i.4 }}">修改</a>
+            </div>
+        {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+    </div>
+</div>
+<div class="content fr" align="center">
+    <a style="text-decoration: none;" href="../add_good/"><br><br><br><br>添加新商品</a>
+    </div>
+
+</body>
+</html>

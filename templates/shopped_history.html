@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购买记录</title>
+    <style>
+        /* 把标签默认的间距设为0 */
+        body, ul, ol, p, h1, h2, h3, h4, h5, h6, dl, dd, select, input, textarea, form {
+            margin: 0;
+            padding: 0
+        }
+
+        /* 去掉列表默认的图标 */
+        ul, ol {
+            list-style: none;
+        }
+
+        /* 去掉em默认的斜体 */
+        em {
+            font-style: normal;
+        }
+
+        /* 去掉a标签默认的下划线 */
+        a {
+            text-decoration: none;
+        }
+
+        /* 去掉加链接时产生的框线 */
+        img {
+            border: 0;
+        }
+
+        /* 清除浮动 */
+        .clearfix:before, .clearfix:after {
+            content: "";
+            display: table
+        }
+
+        /* 浮动 */
+        .fl {
+            float: left
+        }
+
+        .fr {
+            float: right
+        }
+
+        body {
+            font-size: 12px;
+            color: #666;
+        }
+
+        html, body {
+            height: 100%
+        }
+
+        .header_con {
+            background-color: #f7f7f7;
+            height: 29px;
+            border-bottom: 1px solid #dddddd
+        }
+
+        .header {
+            width: 1200px;
+            height: 29px;
+            margin: 0 auto;
+        }
+
+        .welcome, .login_info, .login_btn, .user_link, .book_sort {
+            line-height: 29px;
+        }
+
+        .login_info em {
+            color: #ff8800
+        }
+
+        .login_btn a, .user_link a {
+            color: #666;
+        }
+
+        .login_btn a:hover, .user_link a:hover {
+            color: #ff8800;
+        }
+
+        .login_btn span, .user_link span {
+            color: #cecece;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+{% load static %}
+<body>
+<div class="header_con">
+    <div class="header">
+        <div class="welcome fl">欢迎来到zy书城!
+            <span>|</span>
+            <a href="../index/">返回主页</a></div>
+        <div class="fr">
+            <div class="login_btn fl">
+                {% if user_name %}
+                    <div class="login_info fl">
+                        欢迎您：<em>{{ user_name }}</em>
+                    </div>
+                {% else %}
+                    <a href="../login/">登录</a>
+                {% endif %}
+                <span>|</span>
+                <a href="../register/">注册</a>
+            </div>
+            <div class="user_link fl">
+                <span>|</span>
+                <a href="../person/">用户中心</a>
+                <span>|</span>
+                <a href="../shoppingcar">我的购物车</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="width: 100%;height: 100%;background-image: url(/static/7.jpg);background-repeat: no-repeat;
+background-size: 100%;" align="center">
+    <table align="center" border="2px" bordercolor="#ff8800" width="800px">
+        <tr align="center">
+            <td align="center" style="color: black">书名</td>
+            <td>评分</td>
+            <td>评价</td>
+            <td>购买时间</td>
+            <td>商家回复</td>
+            <td>购买数量</td>
+            <td>样式</td>
+            <td>点击前去</td>
+        </tr>
+        {% for i in key %}
+            <tr align="center">
+                <td>{{ i.0 }}</td>
+                {% if i.1 == None %}
+                    <td>暂未评分</td>
+                {% else %}
+                    <td>{{ i.1 }}</td>
+                {% endif %}
+                {% if i.2 == None %}
+                    <td>暂未评价</td>
+                {% else %}
+                    <td>{{ i.2 }}</td>
+                {% endif %}
+                <td>{{ i.3 }}</td>
+                {% if i.4 == None %}
+                    <td>商家暂无回复</td>
+                {% else %}
+                    <td>{{ i.4 }}</td>
+                {% endif %}
+                <td>{{ i.5 }}</td>
+                <td>{{ i.6 }}</td>
+                <td><a href="../evaluate/?id={{ i.7 }}">评价评分</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+<h1 style="color: white">暂时只能查看最近15条购物记录(如果你有更多的话)</h1>
+    </div>
+</body>
+</html>

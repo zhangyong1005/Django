@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>超级管理后台の用户</title>
+    <style>
+
+    </style>
+</head>
+{% load static %}
+<body style="background-image: url(/static/9.jpg)">
+<div style="width: 100%">
+    <div style="height: 200px;border: #ff8800 1px solid" align="center">
+        <h3><a href="../" style="text-decoration: none">返回后台管理系统</a></h3>
+        <h3><a href="../user" style="text-decoration: none">按id排序</a></h3>
+        <h3><a href="../user/?p1=1" style="text-decoration: none">按消费排序</a></h3>
+        <h3><a href="../user/?p1=2" style="text-decoration: none">按权限排序</a></h3>
+
+    </div>
+    {% if key == 1 %}
+        {% for i in user %}
+            <div align="center">
+            <form action="../user/?user={{ i.0 }}" method="post">
+            {% csrf_token %}
+                {{ resqult }}<br>
+                名字：<input type="text" placeholder="{{ i.1 }}" name="user_name"><br>
+                密码：<input type="text" placeholder="{{ i.2 }}" name="pass_word"><br>
+                权限：{{ i.5 }}<br>
+                <p>注：权限0为普通用户，1为VIP用户，2为普通管理员</p>
+                <input type="radio" name="power" value="0"/>普通用户
+                <input type="radio" name="power"  value="1"/>VIP用户
+                <input type="radio" name="power"  value="2"/>普通管理员
+                <p>余额：{{ i.3 }}</p>
+                <p>消费：{{ i.4 }}</p>
+                <input type="submit" value="修改">
+            </form>
+        {% endfor %}
+    {% else %}
+        <table align="center" border="1px" bordercolor="#ffcccc" width="300px" height="300px">
+			<tr align="center">
+				<td align="center">id</td>
+				<td>名字</td>
+				<td>消费</td>
+                <td>权限</td>
+                <td>修改</td>
+			</tr>
+        {% for i in user %}
+            <tr align="center">
+				<td align="center">{{ i.0 }}</td>
+				<td>{{ i.1 }}</td>
+				<td>{{ i.2 }}</td>
+                <td>{{ i.3 }}</td>
+                <td><a href="../user/?user={{ i.0 }}" style="text-decoration: none">修改用户</a></td>
+			</tr>
+        {% endfor %}
+        </table>
+    {% endif %}
+
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品评价</title>
+    <style>
+        /* 把标签默认的间距设为0 */
+        body, ul, ol, p, h1, h2, h3, h4, h5, h6, dl, dd, select, input, textarea, form {
+            margin: 0;
+            padding: 0
+        }
+
+        /* 去掉列表默认的图标 */
+        ul, ol {
+            list-style: none;
+        }
+
+        /* 去掉em默认的斜体 */
+        em {
+            font-style: normal;
+        }
+
+        /* 去掉a标签默认的下划线 */
+        a {
+            text-decoration: none;
+        }
+
+        /* 去掉加链接时产生的框线 */
+        img {
+            border: 0;
+        }
+
+        /* 清除浮动 */
+        .clearfix:before, .clearfix:after {
+            content: "";
+            display: table
+        }
+
+        /* 浮动 */
+        .fl {
+            float: left
+        }
+
+        .fr {
+            float: right
+        }
+
+        body {
+            font-size: 12px;
+            color: #666;
+        }
+
+        html, body {
+            height: 100%
+        }
+
+        .header_con {
+            background-color: #f7f7f7;
+            height: 29px;
+            border-bottom: 1px solid #dddddd
+        }
+
+        .header {
+            width: 1200px;
+            height: 29px;
+            margin: 0 auto;
+        }
+
+        .welcome, .login_info, .login_btn, .user_link, .book_sort {
+            line-height: 29px;
+        }
+
+        .login_info em {
+            color: #ff8800
+        }
+
+        .login_btn a, .user_link a {
+            color: #666;
+        }
+
+        .login_btn a:hover, .user_link a:hover {
+            color: #ff8800;
+        }
+
+        .login_btn span, .user_link span {
+            color: #cecece;
+            margin: 0 10px;
+        }
+
+
+    </style>
+</head>
+{% load static %}
+<body>
+<div class="header_con">
+    <div class="header">
+        <div class="welcome fl">欢迎来到zy书城!
+            <span>|</span>
+            <a href="../index/">返回主页</a></div>
+        <div class="fr">
+            <div class="login_btn fl">
+                {% if user_name %}
+                    <div class="login_info fl">
+                        欢迎您：<em>{{ user_name }}</em>
+                    </div>
+                {% else %}
+                    <a href="../login/">登录</a>
+                {% endif %}
+                <span>|</span>
+                <a href="../register/">注册</a>
+            </div>
+            <div class="user_link fl">
+                <span>|</span>
+                <a href="../person/">用户中心</a>
+                <span>|</span>
+                <a href="../shoppingcar">我的购物车</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div align="center" style="background-image: url(/static/7.jpg);min-height: 900px;">
+    <br>
+    <br><br><br>
+    <div><h1 style="top: 20%;float: top">商品具体评价 <a href="../goods_info/?id={{ good_id }}">返回购买该商品</a></h1>
+        {% for i in key %}
+            <div style="width: 300px; background-color: #f7f7f7;border-bottom: 1px solid #dddddd">
+                <p class="fl">用户：{{ i.0 }}</p>
+                <p class="fr">评分：{{ i.1 }}</p><br>
+                <div style="width: 300px; background-color: #f7f7f7;border-bottom: 1px solid #dddddd">
+                    {% if i.2 == None %}
+                        <p class="fl">该用户没有给予具体评价</p>
+                    {% else %}
+                        <p class="fl">具体评价内容：{{ i.2 }}</p>
+                    {% endif %}
+                    <br>
+                </div>
+                {% if i.3 == None %}
+                    <p class="fl">商家暂无回复</p>
+                {% else %}
+                    <p class="fl">商家回复：{{ i.3 }}</p>
+                {% endif %}
+                {% if user_power > 1 %}
+                    <a href="../answer/?id={{ i.4 }}" class="fr">修改商家回复</a>
+                {% endif %}
+                <br>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,637 @@
+[2019-09-09 14:13:32,292] [base.py:93] [base:get_response] [WARNING]- Not Found: /
+[2019-09-09 14:13:32,310] [runserver.py:149] [runserver:log_action] [WARNING]- HTTP GET / 404 [0.08, 127.0.0.1:55106]
+[2019-09-09 14:13:32,785] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2019-09-09 14:13:32,844] [runserver.py:149] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.06, 127.0.0.1:55106]
+[2019-09-09 14:13:36,921] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [1.07, 127.0.0.1:55106]
+[2019-09-09 14:13:37,342] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/zero.jpg 200 [0.02, 127.0.0.1:55106]
+[2019-09-09 14:13:38,905] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=196 200 [0.08, 127.0.0.1:55106]
+[2019-09-09 14:13:38,918] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/six.jpg 200 [0.00, 127.0.0.1:55106]
+[2019-09-09 14:13:41,963] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.17, 127.0.0.1:55106]
+[2019-09-09 14:14:05,960] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.22, 127.0.0.1:55106]
+[2019-09-09 14:14:07,606] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shoppingcar/ 200 [0.03, 127.0.0.1:55106]
+[2019-09-09 14:14:09,702] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shoppingcar/ 200 [0.03, 127.0.0.1:55106]
+[2019-09-09 14:14:10,864] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.02, 127.0.0.1:55106]
+[2019-09-09 14:14:10,876] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/two.jpg 200 [0.01, 127.0.0.1:55106]
+[2019-09-09 14:14:12,512] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.18, 127.0.0.1:55106]
+[2019-09-09 14:14:13,116] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=197 200 [0.07, 127.0.0.1:55106]
+[2019-09-09 14:14:15,708] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shoppingcar/ 200 [0.03, 127.0.0.1:55106]
+[2019-09-09 14:14:16,792] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.01, 127.0.0.1:55106]
+[2019-09-09 14:14:18,232] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.19, 127.0.0.1:55106]
+[2019-09-09 14:16:27,380] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [1.24, 192.168.1.138:55324]
+[2019-09-09 14:16:27,523] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2019-09-09 14:16:27,525] [runserver.py:149] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.01, 192.168.1.138:55324]
+[2019-09-09 14:16:28,704] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /app/shoppingcar 301 [0.00, 192.168.1.138:55324]
+[2019-09-09 14:16:28,727] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shoppingcar/ 200 [0.02, 192.168.1.138:55324]
+[2019-09-09 14:16:28,741] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/six.jpg 200 [0.00, 192.168.1.138:55324]
+[2019-09-09 14:16:29,520] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.01, 192.168.1.138:55324]
+[2019-09-09 14:16:29,533] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/two.jpg 200 [0.00, 192.168.1.138:55324]
+[2019-09-09 14:16:30,945] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/look_history/ 200 [0.14, 192.168.1.138:55324]
+[2019-09-09 14:16:39,756] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.17, 192.168.1.138:55324]
+[2019-09-09 14:18:50,063] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shoppingcar/ 200 [0.03, 192.168.1.138:55459]
+[2019-09-09 14:18:51,776] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.02, 192.168.1.138:55459]
+[2019-09-09 14:18:52,879] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shopped/ 200 [0.19, 192.168.1.138:55459]
+[2019-09-09 14:18:52,893] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/7.jpg 200 [0.00, 192.168.1.138:55459]
+[2019-09-09 14:18:54,803] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.22, 192.168.1.138:55459]
+[2019-09-09 14:19:09,813] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /app/index 301 [0.00, 192.168.1.152:64274]
+[2019-09-09 14:19:09,865] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.05, 192.168.1.152:64274]
+[2019-09-09 14:19:09,886] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/zero.jpg 200 [0.00, 192.168.1.152:64274]
+[2019-09-09 14:19:09,891] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/9.jpg 200 [0.00, 192.168.1.152:64275]
+[2019-09-09 14:19:09,894] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/icons.png 200 [0.00, 192.168.1.152:64282]
+[2019-09-09 14:19:10,750] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2019-09-09 14:19:10,752] [runserver.py:149] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.01, 192.168.1.152:64282]
+[2019-09-09 14:19:23,660] [base.py:93] [base:get_response] [WARNING]- Not Found: /store/index
+[2019-09-09 14:19:23,662] [runserver.py:149] [runserver:log_action] [WARNING]- HTTP GET /store/index 404 [0.01, 192.168.1.145:62800]
+[2019-09-09 14:19:23,922] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2019-09-09 14:19:23,924] [runserver.py:149] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.00, 192.168.1.145:62800]
+[2019-09-09 14:19:32,314] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /app/index 301 [0.00, 192.168.1.145:62800]
+[2019-09-09 14:19:32,376] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.05, 192.168.1.145:62800]
+[2019-09-09 14:19:32,402] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/9.jpg 200 [0.00, 192.168.1.145:62798]
+[2019-09-09 14:19:32,403] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/icons.png 200 [0.00, 192.168.1.145:62797]
+[2019-09-09 14:19:32,470] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/zero.jpg 200 [0.00, 192.168.1.145:62798]
+[2019-09-09 14:19:42,384] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /app/chat/ 302 [0.01, 192.168.1.145:62798]
+[2019-09-09 14:19:42,543] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/login/ 200 [0.01, 192.168.1.145:62798]
+[2019-09-09 14:19:48,128] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.06, 192.168.1.145:62798]
+[2019-09-09 14:19:55,717] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/?pindex=12 200 [0.06, 192.168.1.145:62798]
+[2019-09-09 14:20:14,163] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/register/ 200 [0.01, 192.168.1.145:62798]
+[2019-09-09 14:20:14,194] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/one.jpg 200 [0.00, 192.168.1.145:62798]
+[2019-09-09 14:20:20,660] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/?pindex=8 200 [0.06, 192.168.1.152:64293]
+[2019-09-09 14:20:30,999] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /app/register/ 302 [0.11, 192.168.1.145:62798]
+[2019-09-09 14:20:31,062] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.05, 192.168.1.145:62798]
+[2019-09-09 14:20:33,436] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/?pindex=2 200 [0.12, 192.168.1.138:55547]
+[2019-09-09 14:20:36,169] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/?pindex=12 200 [0.07, 192.168.1.152:64293]
+[2019-09-09 14:20:41,299] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/?pindex=2 200 [0.06, 192.168.1.152:64293]
+[2019-09-09 14:20:46,708] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=435 302 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:20:46,718] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/login/ 200 [0.01, 192.168.1.152:64293]
+[2019-09-09 14:20:51,116] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.02, 192.168.1.145:62798]
+[2019-09-09 14:20:52,869] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/two.jpg 200 [0.00, 192.168.1.145:62846]
+[2019-09-09 14:20:55,559] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/search/ 200 [0.08, 192.168.1.152:64293]
+[2019-09-09 14:20:59,753] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/search/ 200 [0.01, 192.168.1.152:64293]
+[2019-09-09 14:21:00,515] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/search/ 200 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:21:00,752] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/search/ 200 [0.01, 192.168.1.152:64293]
+[2019-09-09 14:21:00,753] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/look_history/ 200 [0.01, 192.168.1.145:62846]
+[2019-09-09 14:21:00,830] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/six.jpg 200 [0.00, 192.168.1.145:62846]
+[2019-09-09 14:21:07,167] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shopped/ 200 [0.03, 192.168.1.145:62846]
+[2019-09-09 14:21:07,187] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/7.jpg 200 [0.00, 192.168.1.145:62846]
+[2019-09-09 14:21:08,010] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/search/ 200 [0.02, 192.168.1.152:64293]
+[2019-09-09 14:21:13,810] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /app/chat/ 302 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:21:13,822] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/login/ 200 [0.01, 192.168.1.152:64293]
+[2019-09-09 14:21:15,216] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.02, 192.168.1.145:62846]
+[2019-09-09 14:21:16,255] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /app/register 301 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:21:16,267] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/register/ 200 [0.01, 192.168.1.152:64293]
+[2019-09-09 14:21:16,277] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/one.jpg 200 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:21:22,440] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/chat/ 200 [0.00, 192.168.1.145:62846]
+[2019-09-09 14:21:23,289] [runserver.py:162] [runserver:log_action] [INFO]- WebSocket HANDSHAKING /ws/chat/test [192.168.1.145:62861]
+[2019-09-09 14:21:23,336] [runserver.py:158] [runserver:log_action] [INFO]- WebSocket CONNECT /ws/chat/test [192.168.1.145:62861]
+[2019-09-09 14:21:24,855] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /app/register/ 302 [0.10, 192.168.1.152:64293]
+[2019-09-09 14:21:24,922] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.06, 192.168.1.152:64293]
+[2019-09-09 14:21:26,490] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.05, 192.168.1.145:62846]
+[2019-09-09 14:21:27,473] [runserver.py:160] [runserver:log_action] [INFO]- WebSocket DISCONNECT /ws/chat/test [192.168.1.145:62861]
+[2019-09-09 14:21:36,161] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.03, 192.168.1.152:64293]
+[2019-09-09 14:21:36,172] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/two.jpg 200 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:21:43,765] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/money/ 200 [0.01, 192.168.1.152:64293]
+[2019-09-09 14:21:43,776] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/7.jpg 200 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:21:52,942] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/money/ 200 [0.01, 192.168.1.152:64293]
+[2019-09-09 14:22:02,013] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/money/ 200 [0.11, 192.168.1.152:64293]
+[2019-09-09 14:22:16,199] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/money/ 200 [0.01, 192.168.1.152:64293]
+[2019-09-09 14:22:22,104] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.02, 192.168.1.152:64293]
+[2019-09-09 14:22:24,618] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shopped/ 200 [0.02, 192.168.1.152:64293]
+[2019-09-09 14:22:27,584] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/look_history/ 200 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:22:27,596] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/six.jpg 200 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:22:38,062] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.07, 192.168.1.152:64293]
+[2019-09-09 14:22:52,458] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=195 200 [0.09, 192.168.1.152:64293]
+[2019-09-09 14:23:15,156] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/goods_info/?id=195 200 [0.18, 192.168.1.152:64293]
+[2019-09-09 14:23:17,211] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/goods_info/?id=195 200 [0.14, 192.168.1.152:64293]
+[2019-09-09 14:23:18,890] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/goods_info/?id=195 200 [0.23, 192.168.1.152:64293]
+[2019-09-09 14:23:22,870] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.07, 192.168.1.152:64293]
+[2019-09-09 14:23:31,417] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /app/shoppingcar 301 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:23:31,482] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shoppingcar/ 200 [0.06, 192.168.1.152:64293]
+[2019-09-09 14:23:31,495] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/five.jpg 200 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:23:42,726] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/shoppingcar/ 200 [0.09, 192.168.1.152:64293]
+[2019-09-09 14:23:51,759] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.03, 192.168.1.152:64293]
+[2019-09-09 14:23:53,368] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/change/ 200 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:23:56,343] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/change/ 200 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:23:57,856] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.03, 192.168.1.152:64293]
+[2019-09-09 14:24:00,992] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/money/ 200 [0.00, 192.168.1.152:64293]
+[2019-09-09 14:24:08,013] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/money/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 380, in money
+    change_money(username,money)
+  File "F:\store\app\function.py", line 80, in change_money
+    cursor.execute("update user set user_money='%s' where user_name='%s'" % (money,name))
+  File "F:\64 python 36\lib\site-packages\pymysql\cursors.py", line 165, in execute
+    result = self._query(query)
+  File "F:\64 python 36\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "F:\64 python 36\lib\site-packages\pymysql\connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "F:\64 python 36\lib\site-packages\pymysql\connections.py", line 1061, in _read_query_result
+    result.read()
+  File "F:\64 python 36\lib\site-packages\pymysql\connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "F:\64 python 36\lib\site-packages\pymysql\connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "F:\64 python 36\lib\site-packages\pymysql\connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "F:\64 python 36\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1264, "Out of range value for column 'user_money' at row 9")
+[2019-09-09 14:24:08,101] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP POST /app/money/ 500 [0.11, 192.168.1.152:64293]
+[2019-09-09 14:24:25,944] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/money/ 200 [0.12, 192.168.1.152:64430]
+[2019-09-09 14:24:29,523] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.01, 192.168.1.138:55693]
+[2019-09-09 14:24:32,992] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/ 200 [2.42, 192.168.1.138:55693]
+[2019-09-09 14:24:33,003] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/one.jpg 200 [0.00, 192.168.1.138:55693]
+[2019-09-09 14:24:35,561] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/user/ 200 [0.01, 192.168.1.138:55693]
+[2019-09-09 14:24:35,882] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.03, 192.168.1.152:64430]
+[2019-09-09 14:24:38,139] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.06, 192.168.1.152:64430]
+[2019-09-09 14:24:39,821] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shoppingcar/ 200 [0.06, 192.168.1.152:64430]
+[2019-09-09 14:24:42,158] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/shoppingcar/ 200 [0.65, 192.168.1.152:64430]
+[2019-09-09 14:24:46,239] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:24:50,456] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.03, 192.168.1.152:64430]
+[2019-09-09 14:24:53,518] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shopped/ 200 [0.03, 192.168.1.152:64430]
+[2019-09-09 14:24:56,074] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/evaluate/?id=251 200 [0.03, 192.168.1.152:64430]
+[2019-09-09 14:25:55,683] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/evaluate/?id=251 200 [0.12, 192.168.1.152:64430]
+[2019-09-09 14:26:02,616] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.05, 192.168.1.152:64430]
+[2019-09-09 14:26:07,384] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:26:07,416] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.05, 192.168.1.152:64430]
+[2019-09-09 14:26:12,415] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=196 200 [0.09, 192.168.1.152:64430]
+[2019-09-09 14:26:14,534] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:26:14,563] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.04, 192.168.1.152:64430]
+[2019-09-09 14:26:24,279] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=196 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:26:26,008] [base.py:93] [base:get_response] [WARNING]- Not Found: /app/idenx
+[2019-09-09 14:26:26,009] [runserver.py:149] [runserver:log_action] [WARNING]- HTTP GET /app/idenx 404 [0.01, 192.168.1.138:56044]
+[2019-09-09 14:26:35,110] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.09, 192.168.1.138:56044]
+[2019-09-09 14:26:37,725] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:26:37,755] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.03, 192.168.1.138:56044]
+[2019-09-09 14:26:46,063] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.11, 192.168.1.152:64430]
+[2019-09-09 14:26:49,418] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:26:49,451] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.05, 192.168.1.152:64430]
+[2019-09-09 14:26:50,459] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=255 200 [0.34, 192.168.1.152:64430]
+[2019-09-09 14:26:55,402] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=216 200 [0.09, 192.168.1.152:64430]
+[2019-09-09 14:26:56,513] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.02, 192.168.1.138:56044]
+[2019-09-09 14:26:58,491] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=253 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:27:05,422] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/ 200 [2.14, 192.168.1.138:56044]
+[2019-09-09 14:27:11,326] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=202 200 [0.13, 192.168.1.152:64430]
+[2019-09-09 14:27:13,215] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=202 200 [0.06, 192.168.1.152:64430]
+[2019-09-09 14:27:15,613] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=202 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:27:22,626] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=2 200 [0.64, 192.168.1.152:64430]
+[2019-09-09 14:27:24,622] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:27:27,069] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.13, 192.168.1.152:64430]
+[2019-09-09 14:27:29,679] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.07, 192.168.1.152:64430]
+[2019-09-09 14:27:29,858] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:27:29,991] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.07, 192.168.1.152:64430]
+[2019-09-09 14:27:30,157] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.07, 192.168.1.152:64430]
+[2019-09-09 14:27:30,280] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.07, 192.168.1.152:64430]
+[2019-09-09 14:27:30,392] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.05, 192.168.1.152:64430]
+[2019-09-09 14:27:30,570] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.06, 192.168.1.152:64430]
+[2019-09-09 14:27:30,723] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.07, 192.168.1.152:64430]
+[2019-09-09 14:27:30,902] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:27:31,056] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:27:31,259] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.12, 192.168.1.152:64430]
+[2019-09-09 14:27:31,370] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:27:31,502] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.06, 192.168.1.152:64430]
+[2019-09-09 14:27:31,648] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.05, 192.168.1.152:64430]
+[2019-09-09 14:27:31,813] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.06, 192.168.1.152:64430]
+[2019-09-09 14:27:31,981] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.06, 192.168.1.152:64430]
+[2019-09-09 14:27:32,135] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.06, 192.168.1.152:64430]
+[2019-09-09 14:27:32,292] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.07, 192.168.1.152:64430]
+[2019-09-09 14:27:32,435] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.05, 192.168.1.152:64430]
+[2019-09-09 14:27:32,580] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.05, 192.168.1.152:64430]
+[2019-09-09 14:27:32,723] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.06, 192.168.1.152:64430]
+[2019-09-09 14:27:34,547] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:27:34,801] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:27:34,936] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.07, 192.168.1.152:64430]
+[2019-09-09 14:27:35,058] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.07, 192.168.1.152:64430]
+[2019-09-09 14:27:35,402] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.09, 192.168.1.152:64430]
+[2019-09-09 14:27:38,156] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=257 200 [0.11, 192.168.1.152:64430]
+[2019-09-09 14:27:40,212] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=258 200 [0.09, 192.168.1.152:64430]
+[2019-09-09 14:27:43,854] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.16, 192.168.1.152:64430]
+[2019-09-09 14:27:49,912] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=2 200 [0.64, 192.168.1.152:64430]
+[2019-09-09 14:27:51,836] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=263 200 [0.33, 192.168.1.152:64430]
+[2019-09-09 14:27:54,514] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=264 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:27:58,190] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=256 200 [0.07, 192.168.1.152:64430]
+[2019-09-09 14:28:00,824] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=257 200 [0.09, 192.168.1.152:64430]
+[2019-09-09 14:28:04,519] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.18, 192.168.1.152:64430]
+[2019-09-09 14:28:24,322] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/?pindex=3 200 [0.19, 192.168.1.152:64430]
+[2019-09-09 14:28:40,913] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/?pindex=4 200 [0.08, 192.168.1.152:64430]
+[2019-09-09 14:28:46,990] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=255 200 [0.09, 192.168.1.152:64430]
+[2019-09-09 14:28:52,605] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=276 200 [0.12, 192.168.1.152:64430]
+[2019-09-09 14:28:57,833] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/goods_info/?id=276 200 [0.15, 192.168.1.152:64430]
+[2019-09-09 14:29:01,252] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 93, in goods_info
+    infos = data[0][5].split('\n')
+IndexError: tuple index out of range
+[2019-09-09 14:29:01,282] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=27 500 [0.04, 192.168.1.152:64430]
+[2019-09-09 14:29:03,586] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 93, in goods_info
+    infos = data[0][5].split('\n')
+IndexError: tuple index out of range
+[2019-09-09 14:29:03,614] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=27 500 [0.03, 192.168.1.152:64430]
+[2019-09-09 14:29:06,883] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 93, in goods_info
+    infos = data[0][5].split('\n')
+IndexError: tuple index out of range
+[2019-09-09 14:29:06,913] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=2 500 [0.05, 192.168.1.152:64430]
+[2019-09-09 14:29:10,225] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=208 200 [0.10, 192.168.1.152:64430]
+[2019-09-09 14:29:13,723] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=200 200 [0.14, 192.168.1.152:64430]
+[2019-09-09 14:29:21,979] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 93, in goods_info
+    infos = data[0][5].split('\n')
+IndexError: tuple index out of range
+[2019-09-09 14:29:22,007] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=999 500 [0.05, 192.168.1.152:64430]
+[2019-09-09 14:32:34,297] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.25, 192.168.1.152:64877]
+[2019-09-09 14:32:34,913] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=197 200 [0.07, 192.168.1.152:64877]
+[2019-09-09 14:32:38,658] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_talk/?p1=197 200 [0.04, 192.168.1.152:64877]
+[2019-09-09 14:34:11,270] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.03, 192.168.1.152:64906]
+[2019-09-09 14:34:12,234] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /app/nologin/ 302 [0.00, 192.168.1.152:64906]
+[2019-09-09 14:34:12,248] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/login/ 200 [0.01, 192.168.1.152:64906]
+[2019-09-09 14:34:16,957] [runserver.py:147] [runserver:log_action] [INFO]- HTTP POST /app/login/ 302 [0.03, 192.168.1.152:64906]
+[2019-09-09 14:34:17,175] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.21, 192.168.1.152:64906]
+[2019-09-09 14:34:18,476] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.03, 192.168.1.152:64906]
+[2019-09-09 14:34:21,588] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/ 200 [2.45, 192.168.1.152:64906]
+[2019-09-09 14:34:23,213] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/user/ 200 [0.03, 192.168.1.152:64906]
+[2019-09-09 14:34:26,161] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/user/?user=5 200 [0.02, 192.168.1.152:64906]
+[2019-09-09 14:34:28,778] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/user 301 [0.00, 192.168.1.152:64906]
+[2019-09-09 14:34:28,816] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/user/ 200 [0.03, 192.168.1.152:64906]
+[2019-09-09 14:34:32,476] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/ 200 [2.41, 192.168.1.152:64906]
+[2019-09-09 14:34:50,796] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/good/ 200 [0.06, 192.168.1.152:64906]
+[2019-09-09 14:36:16,443] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/good/?good=196 200 [0.02, 192.168.1.152:64934]
+[2019-09-09 14:36:20,347] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/superadmin/ 200 [2.62, 192.168.1.152:64934]
+[2019-09-09 14:36:21,283] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.03, 192.168.1.152:64934]
+[2019-09-09 14:36:22,691] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.25, 192.168.1.152:64934]
+[2019-09-09 14:36:23,269] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=196 200 [0.10, 192.168.1.152:64934]
+[2019-09-09 14:36:24,751] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_talk/?p1=196 200 [0.06, 192.168.1.152:64934]
+[2019-09-09 14:36:28,004] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/answer/?id=6 200 [0.03, 192.168.1.152:64934]
+[2019-09-09 14:37:40,767] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.01, 192.168.1.138:57579]
+[2019-09-09 14:37:42,139] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.19, 192.168.1.138:57579]
+[2019-09-09 14:37:44,075] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:37:44,105] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.03, 192.168.1.138:57579]
+[2019-09-09 14:40:47,142] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:40:47,175] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.05, 192.168.1.138:57630]
+[2019-09-09 14:42:43,548] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:42:43,578] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.04, 192.168.1.138:57655]
+[2019-09-09 14:42:47,044] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:42:47,076] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.05, 192.168.1.138:57655]
+[2019-09-09 14:44:49,910] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:44:49,944] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.05, 192.168.1.138:57678]
+[2019-09-09 14:45:02,066] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:45:02,098] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.04, 192.168.1.138:57678]
+[2019-09-09 14:45:03,651] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:45:03,680] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.04, 192.168.1.138:57678]
+[2019-09-09 14:45:05,275] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=196 200 [0.09, 192.168.1.138:57678]
+[2019-09-09 14:45:06,808] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=197 200 [0.07, 192.168.1.138:57678]
+[2019-09-09 14:45:08,016] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 14:45:08,049] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.04, 192.168.1.138:57678]
+[2019-09-09 14:45:13,990] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shoppingcar/ 200 [0.03, 192.168.1.138:57678]
+[2019-09-09 14:45:15,432] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.23, 192.168.1.138:57678]
+[2019-09-09 14:45:34,286] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.21, 192.168.1.138:57678]
+[2019-09-09 14:45:36,155] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=195 200 [0.06, 192.168.1.138:57678]
+[2019-09-09 14:45:37,794] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_talk/?p1=195 200 [0.02, 192.168.1.138:57678]
+[2019-09-09 14:45:39,354] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.20, 192.168.1.138:57678]
+[2019-09-09 14:45:40,831] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=195 200 [0.07, 192.168.1.138:57678]
+[2019-09-09 14:45:43,573] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/goods_info/?id=195 200 [0.17, 192.168.1.138:57678]
+[2019-09-09 14:45:44,537] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/shoppingcar/ 200 [0.05, 192.168.1.138:57678]
+[2019-09-09 14:45:44,550] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /static/five.jpg 200 [0.00, 192.168.1.138:57678]
+[2019-09-09 14:45:46,217] [runserver.py:141] [runserver:log_action] [INFO]- HTTP POST /app/shoppingcar/ 200 [0.37, 192.168.1.138:57678]
+[2019-09-09 14:45:47,292] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/person/ 200 [0.01, 192.168.1.138:57678]
+[2019-09-09 14:45:49,226] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/look_history/ 200 [0.15, 192.168.1.138:57678]
+[2019-09-09 14:49:10,684] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.14, 192.168.1.138:57884]
+[2019-09-09 14:49:12,109] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=196 200 [0.08, 192.168.1.138:57884]
+[2019-09-09 14:49:13,543] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.18, 192.168.1.138:57884]
+[2019-09-09 14:49:15,140] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=3 200 [0.14, 192.168.1.138:57884]
+[2019-09-09 14:49:16,489] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=4 200 [0.41, 192.168.1.138:57884]
+[2019-09-09 14:49:16,954] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=5 200 [0.17, 192.168.1.138:57884]
+[2019-09-09 14:49:17,796] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=6 200 [0.30, 192.168.1.138:57884]
+[2019-09-09 14:49:18,265] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=3 200 [0.19, 192.168.1.138:57884]
+[2019-09-09 14:49:19,777] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=4 200 [0.47, 192.168.1.138:57884]
+[2019-09-09 14:49:20,328] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=6 200 [0.23, 192.168.1.138:57884]
+[2019-09-09 14:49:21,286] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=2 200 [0.55, 192.168.1.138:57884]
+[2019-09-09 14:49:28,791] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=2 200 [0.51, 192.168.1.138:57884]
+[2019-09-09 14:49:29,319] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=3 200 [0.16, 192.168.1.138:57884]
+[2019-09-09 14:49:31,253] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=4 200 [0.44, 192.168.1.138:57884]
+[2019-09-09 14:49:33,525] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/sort/?p1=1 200 [0.34, 192.168.1.138:57884]
+[2019-09-09 17:13:29,850] [runserver.py:147] [runserver:log_action] [INFO]- HTTP GET /app/login 301 [0.00, 192.168.1.138:59203]
+[2019-09-09 17:13:29,863] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/login/ 200 [0.01, 192.168.1.138:59203]
+[2019-09-09 17:13:29,926] [base.py:93] [base:get_response] [WARNING]- Not Found: /favicon.ico
+[2019-09-09 17:13:29,929] [runserver.py:149] [runserver:log_action] [WARNING]- HTTP GET /favicon.ico 404 [0.01, 192.168.1.138:59203]
+[2019-09-09 17:13:34,166] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/index/ 200 [0.09, 192.168.1.138:59203]
+[2019-09-09 17:13:34,193] [runserver.py:145] [runserver:log_action] [INFO]- HTTP GET /static/9.jpg 304 [0.00, 192.168.1.138:59203]
+[2019-09-09 17:13:35,894] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 17:13:35,927] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.04, 192.168.1.138:59203]
+[2019-09-09 17:13:38,850] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=196 200 [0.10, 192.168.1.138:59203]
+[2019-09-09 17:13:40,279] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=197 200 [0.09, 192.168.1.138:59203]
+[2019-09-09 17:13:43,358] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 433, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 17:13:43,389] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.04, 192.168.1.138:59203]
+[2019-09-09 17:14:09,300] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 434, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 17:14:09,339] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.06, 192.168.1.138:59277]
+[2019-09-09 17:14:51,276] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 436, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 17:14:51,311] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.11, 192.168.1.138:59307]
+[2019-09-09 17:15:02,143] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 436, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 17:15:02,176] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.05, 192.168.1.138:59331]
+[2019-09-09 17:15:20,166] [exception.py:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /app/goods_info/
+Traceback (most recent call last):
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\exception.py", line 35, in inner
+    response = get_response(request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "F:\64 python 36\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "F:\store\app\views.py", line 20, in zyc
+    return func(request)
+  File "F:\store\app\views.py", line 83, in goods_info
+    final_grade(goods_id)
+  File "F:\store\app\function.py", line 437, in final_grade
+    sum+=i[0]
+TypeError: unsupported operand type(s) for +=: 'int' and 'NoneType'
+[2019-09-09 17:15:20,201] [runserver.py:154] [runserver:log_action] [ERROR]- HTTP GET /app/goods_info/?id=195 500 [0.06, 192.168.1.138:59344]
+[2019-09-09 17:15:37,457] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=195 200 [1.14, 192.168.1.138:59359]
+[2019-09-09 17:15:39,766] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_talk/?p1=195 200 [0.03, 192.168.1.138:59359]
+[2019-09-09 17:15:42,086] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=195 200 [0.10, 192.168.1.138:59359]
+[2019-09-09 17:15:43,113] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_talk/?p1=195 200 [0.02, 192.168.1.138:59359]
+[2019-09-09 17:15:47,014] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_talk/?p1=195 200 [0.04, 192.168.1.138:59359]
+[2019-09-09 17:15:49,047] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=196 200 [0.08, 192.168.1.138:59359]
+[2019-09-09 17:15:49,995] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_talk/?p1=196 200 [0.06, 192.168.1.138:59359]
+[2019-09-09 17:15:51,371] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/answer/?id=6 200 [0.01, 192.168.1.138:59359]
+[2019-09-09 17:15:54,633] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_info/?id=195 200 [0.06, 192.168.1.138:59359]
+[2019-09-09 17:16:00,982] [runserver.py:141] [runserver:log_action] [INFO]- HTTP GET /app/goods_talk/?p1=195 200 [0.04, 192.168.1.138:59359]
