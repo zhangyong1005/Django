@@ -1,5 +1,9 @@
 import pymysql
-
+import redis
+def con_redis():
+    pool = redis.ConnectionPool(host='localhost', port=6379, decode_responses=True)
+    r = redis.Redis(connection_pool=pool)
+    return r
 
 def con_mysql():
     return pymysql.connect(host='127.0.0.1', port=3306,

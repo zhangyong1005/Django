@@ -5,10 +5,7 @@ from django.shortcuts import render, redirect
 from app.form import *
 from app.function import *
 from django.core.paginator import Paginator
-import redis
 
-pool = redis.ConnectionPool(host='localhost', port=6379, decode_responses=True)
-r = redis.Redis(connection_pool=pool)
 
 
 def check(func):
@@ -32,6 +29,7 @@ def index(request):
     '''
     all_goods = goods_show()
     user_name = request.COOKIES.get('book_cookie')
+    r=con_redis()
     if user_name != '':
         key = 'history_%s' % user_name
         history_li = r.lrange(key, 0, 19)
@@ -88,6 +86,7 @@ def goods_info(request):
         user_name = request.COOKIES.get('book_cookie')
         data = one_good(goods_id)
         looktime = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        r=con_redis()
         r.set(name='%s_%s' % (user_name, goods_id), value=looktime)
         key = 'history_%s' % user_name
         r.lrem(key, 0, goods_id)
@@ -603,6 +602,7 @@ def look_history(request):
     浏览记录，redis取
     '''
     user_name = request.COOKIES.get('book_cookie')
+    r=con_redis()
     key = 'history_%s' % user_name
     history_li = r.lrange(key, 0, 19)
     goods_li = []
