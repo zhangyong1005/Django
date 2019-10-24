@@ -2,7 +2,7 @@ import time
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
-from app.form import *
+from app.form import Form_register,Form_login,Add_good
 from app.function import *
 from django.core.paginator import Paginator
 
